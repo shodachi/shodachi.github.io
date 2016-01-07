@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <title>Shodachi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/theme.css" rel="stylesheet">
+
+
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="tech_rad_lib/protovis-3.2/protovis-d3.2.js"></script>
+    <script type="text/javascript" charset="utf-8" src="utils.js"></script>
+    <script type="text/javascript" charset="utf-8" src="tech_rad_lib/lodash.underscore.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="radars/radarData.js"></script>
+    <script type="text/javascript" src="radar.js" charset="utf-8"></script>
 </head>
 
-<body>
+<body onload="init(h,w);">
 
 <div class="container-fluid">
     <div class="row-fluid">
@@ -39,46 +48,21 @@
     </div>
 </div>
 
+<div class="well">
+    <h1>Personal tech radar [2016-01]</h1>
+	
+	Idea from http://nealford.com/memeagora/2013/05/28/build_your_own_technology_radar.html
+    <br><br>
+    <p> Here is my personal definition of the 4 rings: </p>
+	<ul class="list-group">
+	  <li class="list-group-item"><b>Adopt:</b> Technologies & Techniques that I've worked with recently and became confident with. </li>
+	  <li class="list-group-item"><b>Trial:</b> Technologies & Techniques that I've tried a bit and want to gain more knowledge on. </li>
+	  <li class="list-group-item"><b>Asses:</b> Technologies & Techniques that I've not used/tried yet & want to take a more serious look in the next 6 months.</li>
+	   <li class="list-group-item"><b>Hold:</b> Technologies & Techniques that I would like to try in the future, but don't feel the need to look into in the next 6 months. <br>Also may include technologies I have tried, but don't feel I would need them in my skillset now (or ever).</li>
+	</ul>
+    <div id="radar"></div>
 
-<div class="container container-left">
-    <div class="row">
-        <div class="col-md-3 hidden-xs">
-            <div class="sidebar well">
-Maxime Cardinal
-</div>
-
-<div class="sidebar well">
-    <h1>Recent Posts</h1>
-    <ul>
-        
-          <li><a href="/2015/01/jekyll-clean-theme">Jekyll and github</a></li>
-        
-    </ul>
-</div>
-
-<div class="sidebar well">
-<h1>Links</h1>
-<ul>
-  <li><a href="https://ca.linkedin.com/in/maxime-cardinal-99038913">Linkedin Profile</a></li>
-  <li><a href="http://global.rakuten.com/corp/">Rakuten</a></li>
-  <li><a href="http://www.sentabi.jp/en/">Sendai</a></li>
-</ul>
-
-</div>
-
-        </div>
-        <div class="col-md-9">
-            <div class="well">
-    <h1>Personal tech radar</h1>
-    <p>
-    	Soon..
-    	http://nealford.com/memeagora/2013/05/28/build_your_own_technology_radar.html
-    </p>
-</div>
-        </div>
-    </div>
-</div>
-
+</div> 
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="span12 footer navbar-inverse navbar-fixed-bottom">
