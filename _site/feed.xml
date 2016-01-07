@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Shodachi</title>
+		<description>Maxime Cardinal</description>
+		<link>http://scotte.github.io</link>
+		<atom:link href="http://scotte.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Jekyll and github</title>
+				<description>&lt;p&gt;Was looking for some hosting to create my own personal site.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://suls.org&quot;&gt;suls.org&lt;/a&gt; for telling me about Jekyll and github pages.
+&lt;a href=&quot;https://pages.github.com/&quot;&gt;https://pages.github.com/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Quite neat.&lt;/p&gt;
+
+&lt;p&gt;Made me rememeber when I made an html static page generator with VB 6 for creating a tourism company website. In 2002?&lt;/p&gt;
+</description>
+				<pubDate>Sun, 04 Jan 2015 22:00:00 +0900</pubDate>
+				<link>http://scotte.github.io/2015/01/jekyll-clean-theme</link>
+				<guid isPermaLink="true">http://scotte.github.io/2015/01/jekyll-clean-theme</guid>
+			</item>
+		
+	</channel>
+</rss>
