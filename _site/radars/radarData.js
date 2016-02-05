@@ -1,9 +1,9 @@
 //This is the concentic circles that want on your radar
 var radar_arcs = [
-                   {'r':100,'name':'Adopt'}
-                  ,{'r':200,'name':'Trial'}
-                  ,{'r':300,'name':'Assess'}
-                  ,{'r':400,'name':'Hold'}
+                   {'r':100,'name':'Adopted'}
+                  ,{'r':200,'name':'Trying'}
+                  ,{'r':300,'name':'Will try'}
+                  ,{'r':400,'name':'Hold '}
                  // ,{'r':500,'name':'Possible Extra if you want it'}
                  ];
 
@@ -41,6 +41,7 @@ var radar_arcs = [
 // - Hold: things that are getting attention in the industry, but not ready for use; sometimes they are not mature enough yet, sometimes they are irredeemably flawed
 //      Note: there's no "avoid" ring, but throw things in the hold ring that people shouldn't use.
 
+
 var h = 1000;
 var w = 1200;
 
@@ -50,7 +51,17 @@ var radar_data = [
         "top" : 18,
         "color" : "#8FA227",
         "items" : [ 
-            {"name":"A", "pc":{"r":90,"t":135},"movement":"c"}
+            {"name":"Deployment pipeline", "pc":{"r":30,"t":100},"movement":"c"},
+            {"name":"Post-mortems", "pc":{"r":50,"t":135},"movement":"c"},
+            {"name":"'Scrum'", "pc":{"r":80,"t":160},"movement":"c"},
+            {"name":"Pair programing", "pc":{"r":120,"t":175},"movement":"c"},
+            {"name":"Continuous Delivery", "pc":{"r":140,"t":110},"movement":"c"},
+            {"name":"Growsmethod http://growsmethod.com/", "pc":{"r":210,"t":130},"movement":"c"},
+            {"name":"Blue-green deployement", "pc":{"r":150,"t":110},"movement":"c"},
+            {"name":"XP", "pc":{"r":300,"t":150},"movement":"c"},
+            {"name":"Canary release", "pc":{"r":320,"t":120},"movement":"c"},
+            {"name":"Machine learning", "pc":{"r":340,"t":130},"movement":"c"}
+
         ]
     },
     { "quadrant": "Tools",
@@ -58,7 +69,15 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [ 
-            {"name":"B", "pc":{"r":90,"t":45},"movement":"c"}
+            {"name":"Jenkins", "pc":{"r":40,"t":15},"movement":"c"},
+            {"name":"Ansible", "pc":{"r":90,"t":45},"movement":"c"},
+            {"name":"Rundeck", "pc":{"r":100,"t":60},"movement":"c"},
+            {"name":"IntelliJ", "pc":{"r":110,"t":75},"movement":"c"},
+            {"name":"Go.cd", "pc":{"r":120,"t":30},"movement":"c"},
+            {"name":"Rabbitmq", "pc":{"r":200,"t":45},"movement":"c"},
+            {"name":"Thirft", "pc":{"r":210,"t":60},"movement":"c"},
+            {"name":"Hadoop", "pc":{"r":300,"t":75},"movement":"c"},
+            {"name":"Spark", "pc":{"r":300,"t":20},"movement":"c"}
         ]
     },
     { "quadrant": "Platforms",
@@ -66,7 +85,12 @@ var radar_data = [
          "top" : (h/2 + 18),
         "color" : "#DC6F1D",
         "items" : [
-            {"name":"C", "pc":{"r":90,"t":225},"movement":"c"}
+            {"name":"Cloud Foundry", "pc":{"r":40,"t":225},"movement":"c"},
+            {"name":"Android", "pc":{"r":70,"t":250},"movement":"c"},
+            {"name":"Openstack", "pc":{"r":100,"t":260},"movement":"c"},
+            {"name":"iOS", "pc":{"r":120,"t":225},"movement":"c"},
+            {"name":"MacOS X", "pc":{"r":140,"t":260},"movement":"c"}
+
         ]
     },
     { "quadrant": "Languages & Frameworks",
@@ -74,7 +98,12 @@ var radar_data = [
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
         "items" : [ 
-            {"name":"D", "pc":{"r":90,"t":315},"movement":"c"}
+            {"name":"Java", "pc":{"r":50,"t":315},"movement":"c"},
+            {"name":"Ruby", "pc":{"r":70,"t":330},"movement":"c"},
+            {"name":"Python", "pc":{"r":100,"t":350},"movement":"c"},
+            {"name":"Scala", "pc":{"r":210,"t":315},"movement":"c"},
+            {"name":"Swift", "pc":{"r":210,"t":330},"movement":"c"},
+            {"name":"Haskell", "pc":{"r":310,"t":350},"movement":"c"}
         ]
     }
 ];

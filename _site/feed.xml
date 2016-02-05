@@ -2,9 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Shodachi</title>
-		<description>Page of Maxime Cardinal (Software Engineer)</description>
+		<description>Kendo freak</description>
 		<link></link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Personal tech radar</title>
+				<description>&lt;p&gt;I made my &lt;a href=&quot;/tech_radar.html&quot;&gt;personal Tech Radar&lt;/a&gt;.
+It&amp;#39;s a bit different from the &lt;a href=&quot;https://www.thoughtworks.com/radar&quot;&gt;Thoughtworks Tech radar&lt;/a&gt;. I changed the rings definition and it&amp;#39;s less suggestive and more personal. It&amp;#39;s mainly to help me see where I stand now and where I want to go with my skills in the near future.&lt;/p&gt;
+
+&lt;p&gt;I will make a new radar in 6 months to see how things have changed. It should be interesting, at least I hope :). &lt;/p&gt;
+</description>
+				<pubDate>Thu, 05 Feb 2015 23:00:00 +0900</pubDate>
+				<link>/2015/02/tech-radar</link>
+				<guid isPermaLink="true">/2015/02/tech-radar</guid>
+			</item>
 		
 			<item>
 				<title>Jekyll and github</title>
